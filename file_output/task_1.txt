@@ -1,0 +1,9 @@
+Linus Torvalds is a pivotal figure in software development, best known for creating the Linux
+operating system kernel in 1991, which laid the foundation for a robust and versatile open-source
+platform. Linux has enabled a wide range of applications, powering everything from servers to
+smartphones, and has significantly influenced the growth of the open-source movement by promoting
+collaborative development practices. In addition, Torvalds developed Git in 2005, a version control
+system that has become an essential tool for software development, facilitating collaboration and
+version tracking among developers worldwide. His contributions have not only revolutionized software
+engineering but have also played a critical role in shaping modern development practices, fostering
+innovation and community-driven projects in the tech industry.

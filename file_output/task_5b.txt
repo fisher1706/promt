@@ -1,0 +1,74 @@
+**Meeting Self-Assessment: 12 August 2023**
+
+**Purpose:**
+To clarify the requirements for a web-based to-do app.
+
+**Participants:**
+Sarah, Bob, Emily, Liam, Raj, Mia, Chloe, David
+
+**Decisions and Action Outcomes:**
+- Agreement on core functionality: task creation, categorization, due dates, notifications.
+- Establishing a timeline for an MVP in the next two months.
+- Documentation of decisions and task breakdown for the first sprint.
+
+**Top 3 Insights:**
+1. Emphasis on user-friendliness with essential features being prioritized.
+2. Frontend design must accommodate both desktop and mobile platforms.
+3. A modular approach is suggested for scalability and future feature additions.
+
+**Top 3 Challenges:**
+1. Need to define clear acceptance criteria for quality assurance.
+2. Ensuring a clean and responsive UI/UX amidst increasing complexity.
+3. Balancing the timeline for MVP with feature richness.
+
+---
+
+**Meeting Self-Assessment: 18 December 2023**
+
+**Purpose:**
+To address customer feedback suggesting the addition of task assignment features.
+
+**Participants:**
+Sarah, Emily, Chloe, Raj, Mia, Bob, David
+
+**Decisions and Action Outcomes:**
+- Agreement to postpone the task assignment feature until after the MVP is launched.
+- Documentation of requirements for future inclusion of the feature.
+- Decision to communicate the plan to customers and revisit the feature later.
+
+**Top 3 Insights:**
+1. Customer need for task assignment is significant, reflecting a desire for improved team
+collaboration.
+2. Frontend modifications for the feature are manageable, but backend adjustments are substantial.
+3. Maintaining the integrity of the current timeline is critical while addressing user feedback.
+
+**Top 3 Challenges:**
+1. Balancing customer demands with project timelines and scope.
+2. Managing potential complexities associated with user management and authentication layers.
+3. Ensuring clear communication with customers about feature timelines.
+
+---
+
+**Meeting Self-Assessment: 5 February 2024**
+
+**Purpose:**
+To discuss performance issues related to application speed under concurrent user load.
+
+**Participants:**
+Sarah, Raj, Mia, Emily, Liam, Bob, David
+
+**Decisions and Action Outcomes:**
+- Agreement to prototype a solution using Redis to address performance bottlenecks.
+- Raj and Mia tasked with assessing the feasibility of the proposed solution within a month.
+- Follow-up meeting scheduled in two weeks to check progress.
+
+**Top 3 Insights:**
+1. Concurrent user load is a significant factor affecting application performance.
+2. The current database structure is not optimized for high-load scenarios, requiring architectural
+adjustments.
+3. Caching solutions can help but may introduce complications like stale data issues.
+
+**Top 3 Challenges:**
+1. Need for a sustainable long-term solution rather than just a temporary fix.
+2. Ensuring data consistency and testing requirements around caching or database changes.
+3. Balancing immediate performance improvements with longer-term architectural modifications.

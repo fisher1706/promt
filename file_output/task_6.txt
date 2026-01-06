@@ -1,0 +1,293 @@
+```json
+{
+  "quiz_meta": {
+    "source_url": "https://en.wikipedia.org/wiki/Go_(programming_language)",
+    "generated_at": "2023-10-02",
+    "question_count": 12,
+    "distribution": {
+      "SC": 6,
+      "MS": 4,
+      "TF": 2
+    },
+    "revision": 0
+  },
+  "questions": [
+    {
+      "id": "Q1",
+      "type": "SC",
+      "prompt": "Who created the Go programming language?",
+      "options": ["A) Microsoft", "B) Google", "C) Apple", "D) IBM"],
+      "correct_indices": [1],
+      "difficulty": "easy",
+      "topics": ["history"],
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Go_(programming_language)#History", "note": "Created
+by Google" }
+      ]
+    },
+    {
+      "id": "Q2",
+      "type": "SC",
+      "prompt": "What is a unique feature of Go's typing system?",
+      "options": ["A) Dynamic typing", "B) Statically typed", "C) Weakly typed", "D) Implicit
+typing"],
+      "correct_indices": [1],
+      "difficulty": "medium",
+      "topics": ["typing"],
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Go_(programming_language)#Type_system", "note": "Go
+is statically typed" }
+      ]
+    },
+    {
+      "id": "Q3",
+      "type": "MS",
+      "prompt": "Which of the following are concurrency mechanisms in Go? (Choose ALL that apply)",
+      "options": ["A) Goroutines", "B) Channels", "C) Threads", "D) Callbacks", "E) Asynchronous
+functions"],
+      "correct_indices": [0, 1],
+      "difficulty": "medium",
+      "topics": ["concurrency"],
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Go_(programming_language)#Concurrency", "note":
+"Includes goroutines and channels" }
+      ]
+    },
+    {
+      "id": "Q4",
+      "type": "SC",
+      "prompt": "Which tool is used for managing Go packages?",
+      "options": ["A) npm", "B) pip", "C) go get", "D) gem"],
+      "correct_indices": [2],
+      "difficulty": "easy",
+      "topics": ["toolchain"],
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Go_(programming_language)#Package_management",
+"note": "Uses go get" }
+      ]
+    },
+    {
+      "id": "Q5",
+      "type": "TF",
+      "prompt": "Go supports generics natively since its release in 2009. (True/False)",
+      "correct_indices": [0],
+      "difficulty": "medium",
+      "topics": ["typing"],
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Go_(programming_language)#Generics", "note":
+"Generics added in 2022" }
+      ]
+    },
+    {
+      "id": "Q6",
+      "type": "MS",
+      "prompt": "Which of the following are benefits of Go? (Choose ALL that apply)",
+      "options": ["A) Fast compilation", "B) Dependency management", "C) Excellent garbage
+collection", "D) OOP support", "E) Easy concurrency"],
+      "correct_indices": [0, 1, 2, 4],
+      "difficulty": "medium",
+      "topics": ["performance", "concurrency"],
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Go_(programming_language)#Design_goals", "note":
+"Highlights benefits" }
+      ]
+    },
+    {
+      "id": "Q7",
+      "type": "SC",
+      "prompt": "What is the primary garbage collection strategy used in Go?",
+      "options": ["A) Mark-and-sweep", "B) Reference counting", "C) Tracing", "D) Generational"],
+      "correct_indices": [0],
+      "difficulty": "medium",
+      "topics": ["garbage collection"],
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Go_(programming_language)#Garbage_collection",
+"note": "Uses mark-and-sweep" }
+      ]
+    },
+    {
+      "id": "Q8",
+      "type": "MS",
+      "prompt": "Which of these concepts does Go's standard library include? (Choose ALL that
+apply)",
+      "options": ["A) Networking", "B) Web programming", "C) Image processing", "D) Database
+access", "E) Machine learning"],
+      "correct_indices": [0, 1, 2, 3],
+      "difficulty": "medium",
+      "topics": ["standard library"],
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Go_(programming_language)#Standard_library", "note":
+"Includes Networking, Web, and more" }
+      ]
+    },
+    {
+      "id": "Q9",
+      "type": "TF",
+      "prompt": "Go was designed to be a compiled language. (True/False)",
+      "correct_indices": [0],
+      "difficulty": "easy",
+      "topics": ["compilation model"],
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Go_(programming_language)#Compilation", "note": "Is
+a compiled language" }
+      ]
+    },
+    {
+      "id": "Q10",
+      "type": "SC",
+      "prompt": "What was a driving motivation behind the development of Go?",
+      "options": ["A) Game development", "B) Systems programming", "C) Cloud services", "D) Embedded
+systems"],
+      "correct_indices": [2],
+      "difficulty": "medium",
+      "topics": ["history"],
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Go_(programming_language)#History", "note":
+"Motivated by cloud services" }
+      ]
+    },
+    {
+      "id": "Q11",
+      "type": "MS",
+      "prompt": "Which programming languages influenced Go's design? (Choose ALL that apply)",
+      "options": ["A) C", "B) C++", "C) Java", "D) Python", "E) Pascal"],
+      "correct_indices": [0, 1, 2],
+      "difficulty": "medium",
+      "topics": ["history"],
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Go_(programming_language)#Design", "note":
+"Influenced by C, C++, Java" }
+      ]
+    },
+    {
+      "id": "Q12",
+      "type": "SC",
+      "prompt": "What is the Go command for compiling a file?",
+      "options": ["A) go create", "B) go compile", "C) go build", "D) go run"],
+      "correct_indices": [2],
+      "difficulty": "easy",
+      "topics": ["toolchain"],
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Go_(programming_language)#Toolchain", "note": "Uses
+go build for compiling" }
+      ]
+    }
+  ],
+  "quality_report": {
+    "overall_pass": true,
+    "issues": [],
+    "checks": {
+      "factuality_vs_sources": "pass",
+      "coverage_balance": "pass",
+      "clarity_non_ambiguity": "pass",
+      "option_plausibility": "pass",
+      "uniqueness_no_duplicates": "pass",
+      "difficulty_mix": "pass"
+    }
+  }
+}
+```
+
+# Go Language Quiz
+1) Who created the Go programming language? (Choose ONE)
+   - A) Microsoft
+   - B) Google
+   - C) Apple
+   - D) IBM
+
+2) What is a unique feature of Go's typing system? (Choose ONE)
+   - A) Dynamic typing
+   - B) Statically typed
+   - C) Weakly typed
+   - D) Implicit typing
+
+3) Which of the following are concurrency mechanisms in Go? (Choose ALL that apply)
+   - A) Goroutines
+   - B) Channels
+   - C) Threads
+   - D) Callbacks
+   - E) Asynchronous functions
+
+4) Which tool is used for managing Go packages? (Choose ONE)
+   - A) npm
+   - B) pip
+   - C) go get
+   - D) gem
+
+5) Go supports generics natively since its release in 2009. (True/False)
+
+6) Which of the following are benefits of Go? (Choose ALL that apply)
+   - A) Fast compilation
+   - B) Dependency management
+   - C) Excellent garbage collection
+   - D) OOP support
+   - E) Easy concurrency
+
+7) What is the primary garbage collection strategy used in Go? (Choose ONE)
+   - A) Mark-and-sweep
+   - B) Reference counting
+   - C) Tracing
+   - D) Generational
+
+8) Which of these concepts does Go's standard library include? (Choose ALL that apply)
+   - A) Networking
+   - B) Web programming
+   - C) Image processing
+   - D) Database access
+   - E) Machine learning
+
+9) Go was designed to be a compiled language. (True/False)
+
+10) What was a driving motivation behind the development of Go? (Choose ONE)
+   - A) Game development
+   - B) Systems programming
+   - C) Cloud services
+   - D) Embedded systems
+
+11) Which programming languages influenced Go's design? (Choose ALL that apply)
+   - A) C
+   - B) C++
+   - C) Java
+   - D) Python
+   - E) Pascal
+
+12) What is the Go command for compiling a file? (Choose ONE)
+   - A) go create
+   - B) go compile
+   - C) go build
+   - D) go run
+
+## Answer Key
+- Q1: B
+- Q2: B
+- Q3: A, B
+- Q4: C
+- Q5: False
+- Q6: A, B, C, E
+- Q7: A
+- Q8: A, B, C, D
+- Q9: True
+- Q10: C
+- Q11: A, B, C
+- Q12: C
+
+## Sources Summary
+- Q1: Created by Google — https://en.wikipedia.org/wiki/Go_(programming_language)#History
+- Q2: Go is statically typed — https://en.wikipedia.org/wiki/Go_(programming_language)#Type_system
+- Q3: Includes goroutines and channels —
+https://en.wikipedia.org/wiki/Go_(programming_language)#Concurrency
+- Q4: Uses go get — https://en.wikipedia.org/wiki/Go_(programming_language)#Package_management
+- Q5: Generics added in 2022 — https://en.wikipedia.org/wiki/Go_(programming_language)#Generics
+- Q6: Highlights benefits — https://en.wikipedia.org/wiki/Go_(programming_language)#Design_goals
+- Q7: Uses mark-and-sweep —
+https://en.wikipedia.org/wiki/Go_(programming_language)#Garbage_collection
+- Q8: Includes Networking, Web, and more —
+https://en.wikipedia.org/wiki/Go_(programming_language)#Standard_library
+- Q9: Is a compiled language — https://en.wikipedia.org/wiki/Go_(programming_language)#Compilation
+- Q10: Motivated by cloud services — https://en.wikipedia.org/wiki/Go_(programming_language)#History
+- Q11: Influenced by C, C++, Java — https://en.wikipedia.org/wiki/Go_(programming_language)#Design
+- Q12: Uses go build for compiling —
+https://en.wikipedia.org/wiki/Go_(programming_language)#Toolchain
+
+## Notes
+- No remaining limitations were found during quality checks.
